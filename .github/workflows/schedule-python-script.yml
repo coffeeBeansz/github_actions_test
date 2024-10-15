@@ -27,7 +27,7 @@ jobs:
       - name: Commit changes
         run: |
           git config --global user.email "tomas.pousette@gmail.com"
-          git config --global user.name "coffeebeansz"
+          git config --global user.name "coffeeBeansz"
           git add log.txt
           git commit -m "Updated log.txt"
           git push
