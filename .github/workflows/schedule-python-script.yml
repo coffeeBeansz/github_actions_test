@@ -31,3 +31,5 @@ jobs:
           git add log.txt
           git commit -m "Updated log.txt"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
