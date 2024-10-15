@@ -23,3 +23,11 @@ jobs:
 
       - name: Run script
         run: python log_current_date.py  # Adjust the path to your script
+      
+      - name: Commit changes
+        run: |
+          git config --local user.email "you@example.com"
+          git config --local user.name "Your Name"
+          git add log.txt
+          git commit -m "Updated log.txt"
+          git push
