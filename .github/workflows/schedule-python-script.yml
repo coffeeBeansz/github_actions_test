@@ -3,7 +3,7 @@ name: Scheduled Python Script
 on:
   push: {}
   schedule:
-    - cron: '* * * * *'  #Run every minute
+    - cron: '5 11 * * *'
 
 jobs:
   run-script:
